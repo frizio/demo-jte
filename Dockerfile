@@ -1,4 +1,4 @@
-FROM frizio/alpine-jdk21-mvn396:latest AS build
+FROM frizio/alpine-jdk21-mvn396:1.0.0 AS build
 #WORKDIR /opt/work
 COPY pom.xml .
 COPY src ./src
